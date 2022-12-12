@@ -1,15 +1,12 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ControlDistrict></ControlDistrict>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ControlDistrict from '@/components/ControlDistrict.vue'
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    ControlDistrict
   }
 }
 </script>
