@@ -1,10 +1,9 @@
 // single challenge
 <template>
   <li>
-    <label class="p-2 flex justify-between items-center">
-      {{challenge.id}} -
-      {{challenge.name}}
-      <input type="checkbox" v-model="challenge.complete" class="ml-3">
+    <label class="p-2 flex justify-between items-center ">
+      {{challenge.id}} - {{challenge.name}}
+      <input type="checkbox" v-bind="challenge.complete" v-on:click="$emit('done')" class="ml-3">
     </label>
   </li>
 </template>

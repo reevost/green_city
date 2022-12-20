@@ -1,17 +1,18 @@
 // This is the big internal window, i.e. not title or footer.
 <template>
-    <div class="flex justify-between gap-2">
-      <img alt="Vue logo" src="./assets/logo.png">
-
-      <ControlDistrict></ControlDistrict>
-    </div>
+  <div class="flex justify-between gap-2">
+    <DistrictView /> // fa prima il render delle liste e poi della immagine
+    <ControlDistrict />
+  </div>
 </template>
 
 <script>
-import controlDistrict from "@/components/ControlDistrict.vue";
+import ControlDistrict from "@/components/ControlDistrict.vue";
+import DistrictView from "@/components/DistrictView.vue";
 export default {
   components: {
-    controlDistrict
+    ControlDistrict,
+    DistrictView
   }
 }
 // header with title and image in the following

@@ -10,10 +10,10 @@
 
     <ul class="border border-gray-600 divide-y divide-gray-600 mt-6">
       <ChallengeItem
-          v-for="single_challenge in challenges"
-          v-bind:key="single_challenge.id"
-          v-bind:challenge="single_challenge"
-          challenge.sync="single_challenge">
+        v-for="single_challenge in challenges"
+        v-bind:key="single_challenge.id"
+        v-bind:challenge="single_challenge"
+        v-on:done="single_challenge.complete = ! single_challenge.complete">
       </ChallengeItem>
     </ul>
   </section>

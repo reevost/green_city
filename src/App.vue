@@ -1,12 +1,12 @@
 <template>
-  <ControlDistrict></ControlDistrict>
+  <GreenCityView></GreenCityView>
 </template>
 
 <script>
-import ControlDistrict from '@/components/ControlDistrict.vue'
+import GreenCityView from "@/components/GreenCityView.vue";
 export default {
   components: {
-    ControlDistrict
+    GreenCityView
   }
 }
 </script>

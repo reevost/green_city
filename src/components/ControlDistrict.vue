@@ -2,13 +2,16 @@
 <template>
   <section class="space-y-6">
     <ChallengeSearch v-on:search="filter"></ChallengeSearch>
-    <ChallengeList v-bind:challenges="inProgressChallenges" title="Challenges in Progress"></ChallengeList>
-    <ChallengeList v-bind:challenges="completedChallenges" title="Challenges Completed"></ChallengeList>
-  </section></template>
+    <ChallengeList v-bind:challenges="inProgress" title="Challenges in Progress"></ChallengeList>
+    <ChallengeList v-bind:challenges="completed" title="Challenges Completed"></ChallengeList>
+  </section>
+</template>
 
 <script>
 import ChallengeList from "@/components/ChallengeList.vue";
 import ChallengeSearch from "@/components/ChallengeSearch.vue";
+import {useChallengesStore} from "@/stores/ChallengesStore";
+import {mapWritableState} from "pinia";
 
 export default {
   components: {
@@ -20,19 +23,12 @@ export default {
     }
   },
   computed: {
-    inProgressChallenges(){
-      return this.challenges.filter(a => ! a.complete);
-    },
-    completedChallenges() {
-      return this.challenges.filter(a => a.complete);
-    }
-  },
-  created() {
-    fetch('http://localhost:3001/challenges')
-        .then(response =>response.json())
-        .then(challenges => {
-          this.challenges = challenges;
-        })
+    ...mapWritableState(useChallengesStore, {
+      districtName: "name",
+      challengesSet: "challenges",
+      inProgress: "inProgressChallenges",
+      completed: "completedChallenges"
+    }),
   },
   methods: {
     filter(idNumber) {
@@ -42,7 +38,7 @@ export default {
         id: this.challenges.length +1
       })
     }
-  }
+  },
 }
 </script>
 
