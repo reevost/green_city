@@ -9,7 +9,7 @@ export let useChallengesStore = defineStore('district_1', {
                     "id": 19,
                     "name": "Zona a traffico limitato",
                     "score": 1,
-                    "complete": true
+                    "complete": false
                 },
                 {
                     "id": 55,
@@ -33,7 +33,7 @@ export let useChallengesStore = defineStore('district_1', {
                     "id": 4,
                     "name": "LED a light on",
                     "score": 1,
-                    "complete": false
+                    "complete": true
                 },
                 {
                     "id": 6,
@@ -307,5 +307,11 @@ export let useChallengesStore = defineStore('district_1', {
         completedChallenges() {
             return this.challenges.filter(a => a.complete);
         },
+        visibleImages() {
+            return [{
+                "id": 0,
+                "name": "background",
+            }, ...new Set(this.challenges.filter(a => a.complete))];
+        }
     }
 })

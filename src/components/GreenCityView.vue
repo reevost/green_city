@@ -1,7 +1,8 @@
 // This is the big internal window, i.e. not title or footer.
+// fa prima il render delle liste e poi della immagine
 <template>
-  <div class="flex justify-between gap-2">
-    <DistrictView /> // fa prima il render delle liste e poi della immagine
+  <div class="grid flex justify-between gap-2">
+    <DistrictView />
     <ControlDistrict />
   </div>
 </template>

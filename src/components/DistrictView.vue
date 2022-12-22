@@ -1,6 +1,10 @@
 <template>
-  <img alt="Vue logo" src="@/assets/BW.svg" class="">
-
+  <div v-for="challenge in images"
+       v-bind:key="challenge.id"
+  >
+    <img v-bind:src="`COLOR_${challenge.id}.svg`"
+         class="active">
+  </div>
 </template>
 
 <script>
@@ -15,18 +19,18 @@ export default {
   },
   computed: {
     ...mapWritableState(useChallengesStore, {
-      districtName: "name",
-      challengesSet: "challenges",
-      inProgress: "inProgressChallenges",
-      completed: "completedChallenges"
+      completed: "completedChallenges",
+      images: "visibleImages"
     }),
   },
 }
 </script>
 
 <style scoped>
-.city-map{
-
+.active{
+  position: absolute;
+  opacity: 90%;
+  height: 100%;
+  width: 100%;
 }
-
 </style>

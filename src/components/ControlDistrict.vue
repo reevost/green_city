@@ -24,8 +24,6 @@ export default {
   },
   computed: {
     ...mapWritableState(useChallengesStore, {
-      districtName: "name",
-      challengesSet: "challenges",
       inProgress: "inProgressChallenges",
       completed: "completedChallenges"
     }),
