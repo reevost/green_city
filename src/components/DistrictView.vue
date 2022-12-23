@@ -1,10 +1,11 @@
 <template>
-  <div v-for="challenge in images"
-       v-bind:key="challenge.id"
-  >
-    <img v-bind:src="`COLOR_${challenge.id}.svg`"
-         class="active">
-  </div>
+  <ul id="gallery" class="">
+    <li v-for="challenge in images"
+    v-bind:key="challenge.id">
+      <img v-bind:src="`COLOR_${challenge.id}.svg`"
+           class="">
+    </li>
+  </ul>
 </template>
 
 <script>
@@ -27,10 +28,11 @@ export default {
 </script>
 
 <style scoped>
-.active{
-  position: absolute;
-  opacity: 90%;
-  height: 100%;
-  width: 100%;
+#gallery img {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+  object-position: center;
 }
 </style>
