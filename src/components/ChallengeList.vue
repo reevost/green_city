@@ -7,7 +7,10 @@
       <h2 class="font-bold mb-2">
         {{ title }}
       </h2>
-      <button v-on:click="toggleChallenge = ! toggleChallenge">
+      <button v-on:click="toggleChallenge = ! toggleChallenge" v-if="toggleChallenge">
+        &#8595;
+      </button>
+      <button v-on:click="toggleChallenge = ! toggleChallenge" v-else>
         &times;
       </button>
     </div>
