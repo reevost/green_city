@@ -1175,6 +1175,8 @@ export let useChallengesStore = defineStore('city', {
         allDistricts() {
             return [...new Set(this.challenges.map(a => a.district))];
         },
-        sumPoints() {}
+        impactSum() {
+            return this.challenges.filter(a => a.complete).reduce((sum, item) => sum + item.impact, 0)
+        }
     }
 })

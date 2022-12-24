@@ -3,11 +3,17 @@
   <section
       v-if="filterChallenge.length"
   >
-    <h2 class="font-bold mb-2">
-      {{ title }}
-    </h2>
+    <div class="flex justify-between items-start">
+      <h2 class="font-bold mb-2">
+        {{ title }}
+      </h2>
+      <button v-on:click="toggleChallenge = ! toggleChallenge">
+        &times;
+      </button>
+    </div>
 
-    <ul class="border border-gray-600 divide-y divide-gray-600 mt-6">
+
+    <ul class="border border-gray-600 divide-y divide-gray-600 mt-6" v-show="! toggleChallenge">
       <ChallengeItem
         v-for="single_challenge in filterChallenge"
         v-bind:key="single_challenge.id"
@@ -29,11 +35,20 @@ export default {
   props:{
     challenges: Array,
     title: String,
-    searchValue: String
+    searchValue: String,
+    tagValue: String
   },
   computed: {
     filterChallenge() {
-      return this.challenges.filter(a => (a.name.toLowerCase()).includes(this.searchValue.toLowerCase()) || String(a.id).includes(this.searchValue));
+      return this.challenges.filter(
+          a => a.district === this.tagValue &&
+              ((a.name.toLowerCase()).includes(this.searchValue.toLowerCase())
+                  || String(a.id).includes(this.searchValue)));
+    }
+  },
+  data () {
+    return {
+      toggleChallenge: false
     }
   }
 }

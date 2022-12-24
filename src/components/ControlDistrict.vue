@@ -8,14 +8,14 @@
       />
       <ChallengeSearch v-on:search="filter"></ChallengeSearch>
     </section>
-    <section id="challenges">
-      <ChallengeList v-bind:challenges="inProgress" title="Challenges in Progress" v-bind:searchValue="filterWord"></ChallengeList>
+    <section id="challenges" class="mt-6">
+      <ChallengeList v-bind:challenges="inProgress" title="Challenges in Progress" v-bind:searchValue="filterWord" v-bind:tagValue="currentDistrict"></ChallengeList>
     </section>
-    <section id="completed challenges">
-      <ChallengeList v-bind:challenges="completed" title="Challenges Completed" v-bind:searchValue="filterWord"></ChallengeList>
+    <section id="completed challenges" class="mt-6">
+      <ChallengeList v-bind:challenges="completed" title="Challenges Completed" v-bind:searchValue="filterWord" v-bind:tagValue="currentDistrict"></ChallengeList>
     </section>
-    <section id="scoring">
-      Qui ci va lo scoring, quelle sopra toggable sul titolo
+    <section id="scoring" class="font-bold mt-6 border border-gray-600 p-2">
+      Punteggio: {{totalScore}}
     </section>
   </div>
 </template>
@@ -41,14 +41,15 @@ export default {
     ...mapWritableState(useChallengesStore, {
       inProgress: "inProgressChallenges",
       completed: "completedChallenges",
-      districts: "allDistricts"
+      districts: "allDistricts",
+      totalScore: "impactSum"
     }),
   },
   methods: {
     filter(idInput) {
       this.filterWord = idInput
     }
-  },
+  }
 }
 </script>
 
