@@ -1147,6 +1147,750 @@ export let useChallengesStore = defineStore('city', {
                 "district": "residenziale",
                 "complete": false
             },
+            {
+                "id": 144,
+                "name": "Case da smontare",
+                "cost": 3,
+                "impact": 3,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 145,
+                "name": "C'è spazio per tutti",
+                "cost": 5,
+                "impact": 3,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 146,
+                "name": "Abitare insieme",
+                "cost": 5,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 147,
+                "name": "LED a light on",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 148,
+                "name": "Energia all'informazione",
+                "cost": 2,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 149,
+                "name": "Raccolta plastic free",
+                "cost": 1,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 150,
+                "name": "Tenga il resto",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 151,
+                "name": "Vesti & Rivesti",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false,
+            },
+            {
+                "id": 152,
+                "name": "Energy community",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 153,
+                "name": "Riciclaggio pannelli fotovoltaici",
+                "cost": 5,
+                "impact": 3,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 154,
+                "name": "Hai voluto la bicicletta…",
+                "cost": 4,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 155,
+                "name": "Bando ai fossili!",
+                "cost": 1,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 156,
+                "name": "Un'auto, tante destinazioni",
+                "cost": 4,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 157,
+                "name": "Trasporto notturno",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 158,
+                "name": "Il wifi qui prende",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 159,
+                "name": "Numeri di emergenza",
+                "cost": 1,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 160,
+                "name": "Un nuovo parco",
+                "cost": 4,
+                "impact": 3,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 161,
+                "name": "Andiam, andiam…",
+                "cost": 3,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 162,
+                "name": "Frutta e verdura",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 163,
+                "name": "Parcheggi green",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 164,
+                "name": "Amministrazione paper free",
+                "cost": 3,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 165,
+                "name": "Il futuro è nel remoto",
+                "cost": 3,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 166,
+                "name": "Stop alla coda",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 167,
+                "name": "Buoni mobilità",
+                "cost": 1,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 168,
+                "name": "Cassonetti 2.0",
+                "cost": 3,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 169,
+                "name": "Co-working",
+                "cost": 3,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 170,
+                "name": "Co-working con asilo nido",
+                "cost": 4,
+                "impact": 3,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 171,
+                "name": "Giro giro tondo",
+                "cost": 3,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 172,
+                "name": "Edifici consumo 0",
+                "cost": 5,
+                "impact": 3,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 173,
+                "name": "Scopriamo la natura",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 174,
+                "name": "Mettici un filtro",
+                "cost": 4,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 175,
+                "name": "L'acqua conta",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 176,
+                "name": "I giardini della pioggia",
+                "cost": 3,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 177,
+                "name": "Case dell'acqua",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 178,
+                "name": "Il fiume ha la febbre?",
+                "cost": 3,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 179,
+                "name": "Mensa riciclona",
+                "cost": 2,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 180,
+                "name": "Comune riciclone",
+                "cost": 2,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 181,
+                "name": "Per gli amici della bici",
+                "cost": 3,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 182,
+                "name": "Zona accessibile",
+                "cost": 4,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 183,
+                "name": "Green city app",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 184,
+                "name": "Borraccia blu",
+                "cost": 2,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 185,
+                "name": "Non trascuriamo il bordo!",
+                "cost": 4,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 186,
+                "name": "Ridurre le perdite",
+                "cost": 3,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 187,
+                "name": "Trasparente",
+                "cost": 3,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 188,
+                "name": "Energy management",
+                "cost": 3,
+                "impact": 2,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 189,
+                "name": "Il cestino intelligente",
+                "cost": 5,
+                "impact": 1,
+                "district": "residenziale",
+                "complete": false
+            },
+            {
+                "id": 190,
+                "name": "Apprendimento a caldo",
+                "cost": 4,
+                "impact": 3,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 191,
+                "name": "Il gioco nel gioco",
+                "cost": 2,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 192,
+                "name": "Scuole plastic free",
+                "cost": 1,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 193,
+                "name": "Libri digitali",
+                "cost": 3,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 194,
+                "name": "LED a light on",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 195,
+                "name": "Energia all'informazione",
+                "cost": 2,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 196,
+                "name": "Raccolta plastic free",
+                "cost": 1,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 197,
+                "name": "Tenga il resto",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 198,
+                "name": "Vesti & Rivesti",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false,
+            },
+            {
+                "id": 199,
+                "name": "Energy community",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 200,
+                "name": "Riciclaggio pannelli fotovoltaici",
+                "cost": 5,
+                "impact": 3,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 201,
+                "name": "Hai voluto la bicicletta…",
+                "cost": 4,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 202,
+                "name": "Bando ai fossili!",
+                "cost": 1,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 203,
+                "name": "Un'auto, tante destinazioni",
+                "cost": 4,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 204,
+                "name": "Trasporto notturno",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 205,
+                "name": "Il wifi qui prende",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 206,
+                "name": "Numeri di emergenza",
+                "cost": 1,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 207,
+                "name": "Un nuovo parco",
+                "cost": 4,
+                "impact": 3,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 208,
+                "name": "Andiam, andiam…",
+                "cost": 3,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 209,
+                "name": "Frutta e verdura",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 210,
+                "name": "Parcheggi green",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 211,
+                "name": "Amministrazione paper free",
+                "cost": 3,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 212,
+                "name": "Il futuro è nel remoto",
+                "cost": 3,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 213,
+                "name": "Stop alla coda",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 214,
+                "name": "Buoni mobilità",
+                "cost": 1,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 215,
+                "name": "Cassonetti 2.0",
+                "cost": 3,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 216,
+                "name": "Co-working",
+                "cost": 3,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 217,
+                "name": "Co-working con asilo nido",
+                "cost": 4,
+                "impact": 3,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 218,
+                "name": "Giro giro tondo",
+                "cost": 3,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 219,
+                "name": "Edifici consumo 0",
+                "cost": 5,
+                "impact": 3,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 220,
+                "name": "Scopriamo la natura",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 221,
+                "name": "Mettici un filtro",
+                "cost": 4,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 222,
+                "name": "L'acqua conta",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 223,
+                "name": "I giardini della pioggia",
+                "cost": 3,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 224,
+                "name": "Case dell'acqua",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 225,
+                "name": "Il fiume ha la febbre?",
+                "cost": 3,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 226,
+                "name": "Mensa riciclona",
+                "cost": 2,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 227,
+                "name": "Comune riciclone",
+                "cost": 2,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 228,
+                "name": "Per gli amici della bici",
+                "cost": 3,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 229,
+                "name": "Zona accessibile",
+                "cost": 4,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 230,
+                "name": "Green city app",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 231,
+                "name": "Borraccia blu",
+                "cost": 2,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 232,
+                "name": "Non trascuriamo il bordo!",
+                "cost": 4,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 233,
+                "name": "Ridurre le perdite",
+                "cost": 3,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 234,
+                "name": "Trasparente",
+                "cost": 3,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 235,
+                "name": "Energy management",
+                "cost": 3,
+                "impact": 2,
+                "district": "scolastico",
+                "complete": false
+            },
+            {
+                "id": 236,
+                "name": "Il cestino intelligente",
+                "cost": 5,
+                "impact": 1,
+                "district": "scolastico",
+                "complete": false
+            }
         ]
     }),
     actions: {
