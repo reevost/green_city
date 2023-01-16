@@ -4,7 +4,7 @@ export let useChallengesStore = defineStore('city', {
     state: () => ({
         challenges: [
             {
-                "id": 1,
+                "id": 19,
                 "name": "Zona a traffico limitato",
                 "cost": 2,
                 "impact": 2,
@@ -12,7 +12,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 2,
+                "id": 55,
                 "name": "Festival dell'acqua",
                 "cost": 2,
                 "impact": 1,
@@ -20,7 +20,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 3,
+                "id": 56,
                 "name": "Swap party",
                 "cost": 2,
                 "impact": 1,
@@ -28,7 +28,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 4,
+                "id": 64,
                 "name": "C'è merce per te!",
                 "cost": 3,
                 "impact": 2,
@@ -36,7 +36,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 5,
+                "id": 4,
                 "name": "LED a light on",
                 "cost": 2,
                 "impact": 1,
@@ -52,7 +52,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 7,
+                "id": 8,
                 "name": "Raccolta plastic free",
                 "cost": 1,
                 "impact": 1,
@@ -60,24 +60,8 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 8,
-                "name": "Tenga il resto",
-                "cost": 2,
-                "impact": 1,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 9,
-                "name": "Vesti & Rivesti",
-                "cost": 2,
-                "impact": 1,
-                "district": "centro storico",
-                "complete": false,
-            },
-            {
                 "id": 10,
-                "name": "Energy community",
+                "name": "Tenga il resto",
                 "cost": 2,
                 "impact": 1,
                 "district": "centro storico",
@@ -85,6 +69,22 @@ export let useChallengesStore = defineStore('city', {
             },
             {
                 "id": 11,
+                "name": "Vesti & Rivesti",
+                "cost": 2,
+                "impact": 1,
+                "district": "centro storico",
+                "complete": false,
+            },
+            {
+                "id": 13,
+                "name": "Energy community",
+                "cost": 2,
+                "impact": 1,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 15,
                 "name": "Riciclaggio pannelli fotovoltaici",
                 "cost": 5,
                 "impact": 3,
@@ -92,7 +92,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 12,
+                "id": 18,
                 "name": "Hai voluto la bicicletta…",
                 "cost": 4,
                 "impact": 2,
@@ -100,7 +100,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 13,
+                "id": 20,
                 "name": "Bando ai fossili!",
                 "cost": 1,
                 "impact": 1,
@@ -108,7 +108,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id":14,
+                "id":22,
                 "name": "Un'auto, tante destinazioni",
                 "cost": 4,
                 "impact": 2,
@@ -116,7 +116,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 15,
+                "id": 23,
                 "name": "Trasporto notturno",
                 "cost": 2,
                 "impact": 1,
@@ -124,72 +124,8 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 16,
-                "name": "Il wifi qui prende",
-                "cost": 2,
-                "impact": 1,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 17,
-                "name": "Numeri di emergenza",
-                "cost": 1,
-                "impact": 1,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 18,
-                "name": "Un nuovo parco",
-                "cost": 4,
-                "impact": 3,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 19,
-                "name": "Andiam, andiam…",
-                "cost": 3,
-                "impact": 2,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 20,
-                "name": "Frutta e verdura",
-                "cost": 2,
-                "impact": 1,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 21,
-                "name": "Parcheggi green",
-                "cost": 2,
-                "impact": 1,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 22,
-                "name": "Amministrazione paper free",
-                "cost": 3,
-                "impact": 2,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 23,
-                "name": "Il futuro è nel remoto",
-                "cost": 3,
-                "impact": 2,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
                 "id": 24,
-                "name": "Stop alla coda",
+                "name": "Il wifi qui prende",
                 "cost": 2,
                 "impact": 1,
                 "district": "centro storico",
@@ -197,7 +133,7 @@ export let useChallengesStore = defineStore('city', {
             },
             {
                 "id": 25,
-                "name": "Buoni mobilità",
+                "name": "Numeri di emergenza",
                 "cost": 1,
                 "impact": 1,
                 "district": "centro storico",
@@ -205,15 +141,15 @@ export let useChallengesStore = defineStore('city', {
             },
             {
                 "id": 26,
-                "name": "Cassonetti 2.0",
-                "cost": 3,
-                "impact": 1,
+                "name": "Un nuovo parco",
+                "cost": 4,
+                "impact": 3,
                 "district": "centro storico",
                 "complete": false
             },
             {
                 "id": 27,
-                "name": "Co-working",
+                "name": "Andiam, andiam…",
                 "cost": 3,
                 "impact": 2,
                 "district": "centro storico",
@@ -221,47 +157,39 @@ export let useChallengesStore = defineStore('city', {
             },
             {
                 "id": 28,
-                "name": "Co-working con asilo nido",
-                "cost": 4,
-                "impact": 3,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 29,
-                "name": "Giro giro tondo",
-                "cost": 3,
-                "impact": 2,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 30,
-                "name": "Edifici consumo 0",
-                "cost": 5,
-                "impact": 3,
-                "district": "centro storico",
-                "complete": false
-            },
-            {
-                "id": 31,
-                "name": "Scopriamo la natura",
+                "name": "Frutta e verdura",
                 "cost": 2,
                 "impact": 1,
                 "district": "centro storico",
                 "complete": false
             },
             {
+                "id": 30,
+                "name": "Parcheggi green",
+                "cost": 2,
+                "impact": 1,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 31,
+                "name": "Amministrazione paper free",
+                "cost": 3,
+                "impact": 2,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
                 "id": 32,
-                "name": "Mettici un filtro",
-                "cost": 4,
+                "name": "Il futuro è nel remoto",
+                "cost": 3,
                 "impact": 2,
                 "district": "centro storico",
                 "complete": false
             },
             {
                 "id": 33,
-                "name": "L'acqua conta",
+                "name": "Stop alla coda",
                 "cost": 2,
                 "impact": 1,
                 "district": "centro storico",
@@ -269,23 +197,23 @@ export let useChallengesStore = defineStore('city', {
             },
             {
                 "id": 34,
-                "name": "I giardini della pioggia",
-                "cost": 3,
+                "name": "Buoni mobilità",
+                "cost": 1,
                 "impact": 1,
                 "district": "centro storico",
                 "complete": false
             },
             {
                 "id": 35,
-                "name": "Case dell'acqua",
-                "cost": 2,
+                "name": "Cassonetti 2.0",
+                "cost": 3,
                 "impact": 1,
                 "district": "centro storico",
                 "complete": false
             },
             {
                 "id": 36,
-                "name": "Il fiume ha la febbre?",
+                "name": "Co-working",
                 "cost": 3,
                 "impact": 2,
                 "district": "centro storico",
@@ -293,6 +221,78 @@ export let useChallengesStore = defineStore('city', {
             },
             {
                 "id": 37,
+                "name": "Co-working con asilo nido",
+                "cost": 4,
+                "impact": 3,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 38,
+                "name": "Giro giro tondo",
+                "cost": 3,
+                "impact": 2,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 40,
+                "name": "Edifici consumo 0",
+                "cost": 5,
+                "impact": 3,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 43,
+                "name": "Scopriamo la natura",
+                "cost": 2,
+                "impact": 1,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 44,
+                "name": "Mettici un filtro",
+                "cost": 4,
+                "impact": 2,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 45,
+                "name": "L'acqua conta",
+                "cost": 2,
+                "impact": 1,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 46,
+                "name": "I giardini della pioggia",
+                "cost": 3,
+                "impact": 1,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 47,
+                "name": "Case dell'acqua",
+                "cost": 2,
+                "impact": 1,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 48,
+                "name": "Il fiume ha la febbre?",
+                "cost": 3,
+                "impact": 2,
+                "district": "centro storico",
+                "complete": false
+            },
+            {
+                "id": 49,
                 "name": "Mensa riciclona",
                 "cost": 2,
                 "impact": 2,
@@ -300,7 +300,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 38,
+                "id": 51,
                 "name": "Comune riciclone",
                 "cost": 2,
                 "impact": 2,
@@ -308,7 +308,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 39,
+                "id": 52,
                 "name": "Per gli amici della bici",
                 "cost": 3,
                 "impact": 1,
@@ -316,7 +316,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 40,
+                "id": 53,
                 "name": "Zona accessibile",
                 "cost": 4,
                 "impact": 2,
@@ -324,7 +324,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 41,
+                "id": 54,
                 "name": "Green city app",
                 "cost": 2,
                 "impact": 1,
@@ -332,7 +332,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 42,
+                "id": 57,
                 "name": "Borraccia blu",
                 "cost": 2,
                 "impact": 1,
@@ -340,7 +340,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 43,
+                "id": 58,
                 "name": "Non trascuriamo il bordo!",
                 "cost": 4,
                 "impact": 2,
@@ -348,7 +348,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 44,
+                "id": 59,
                 "name": "Ridurre le perdite",
                 "cost": 3,
                 "impact": 2,
@@ -356,7 +356,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 45,
+                "id": 60,
                 "name": "Trasparente",
                 "cost": 3,
                 "impact": 1,
@@ -364,7 +364,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 46,
+                "id": 61,
                 "name": "Energy management",
                 "cost": 3,
                 "impact": 2,
@@ -372,7 +372,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 47,
+                "id": 63,
                 "name": "Il cestino intelligente",
                 "cost": 5,
                 "impact": 1,
@@ -380,7 +380,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 48,
+                "id": 2,
                 "name": "Travel Power",
                 "cost": 2,
                 "impact": 1,
@@ -388,7 +388,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 49,
+                "id": 12,
                 "name": "Trasporto via droni",
                 "cost": 5,
                 "impact": 3,
@@ -396,7 +396,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 50,
+                "id": 29,
                 "name": "Kilometro 0",
                 "cost": 3,
                 "impact": 2,
@@ -404,7 +404,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 51,
+                "id": 39,
                 "name": "Compra il giusto",
                 "cost": 2,
                 "impact": 1,
@@ -412,7 +412,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 52,
+                "id": 4,
                 "name": "LED a light on",
                 "cost": 2,
                 "impact": 1,
@@ -420,7 +420,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 53,
+                "id": 6,
                 "name": "Energia all'informazione",
                 "cost": 2,
                 "impact": 2,
@@ -428,7 +428,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 54,
+                "id": 8,
                 "name": "Raccolta plastic free",
                 "cost": 1,
                 "impact": 1,
@@ -436,7 +436,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 55,
+                "id": 10,
                 "name": "Tenga il resto",
                 "cost": 2,
                 "impact": 1,
@@ -444,7 +444,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 56,
+                "id": 11,
                 "name": "Vesti & Rivesti",
                 "cost": 2,
                 "impact": 1,
@@ -452,8 +452,264 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false,
             },
             {
-                "id": 57,
+                "id": 13,
                 "name": "Energy community",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 15,
+                "name": "Riciclaggio pannelli fotovoltaici",
+                "cost": 5,
+                "impact": 3,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 18,
+                "name": "Hai voluto la bicicletta…",
+                "cost": 4,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 20,
+                "name": "Bando ai fossili!",
+                "cost": 1,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id":22,
+                "name": "Un'auto, tante destinazioni",
+                "cost": 4,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 23,
+                "name": "Trasporto notturno",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 24,
+                "name": "Il wifi qui prende",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 25,
+                "name": "Numeri di emergenza",
+                "cost": 1,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 26,
+                "name": "Un nuovo parco",
+                "cost": 4,
+                "impact": 3,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 27,
+                "name": "Andiam, andiam…",
+                "cost": 3,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 28,
+                "name": "Frutta e verdura",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 30,
+                "name": "Parcheggi green",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 31,
+                "name": "Amministrazione paper free",
+                "cost": 3,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 32,
+                "name": "Il futuro è nel remoto",
+                "cost": 3,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 33,
+                "name": "Stop alla coda",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 34,
+                "name": "Buoni mobilità",
+                "cost": 1,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 35,
+                "name": "Cassonetti 2.0",
+                "cost": 3,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 36,
+                "name": "Co-working",
+                "cost": 3,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 37,
+                "name": "Co-working con asilo nido",
+                "cost": 4,
+                "impact": 3,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 38,
+                "name": "Giro giro tondo",
+                "cost": 3,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 40,
+                "name": "Edifici consumo 0",
+                "cost": 5,
+                "impact": 3,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 43,
+                "name": "Scopriamo la natura",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 44,
+                "name": "Mettici un filtro",
+                "cost": 4,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 45,
+                "name": "L'acqua conta",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 46,
+                "name": "I giardini della pioggia",
+                "cost": 3,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 47,
+                "name": "Case dell'acqua",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 48,
+                "name": "Il fiume ha la febbre?",
+                "cost": 3,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 49,
+                "name": "Mensa riciclona",
+                "cost": 2,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 51,
+                "name": "Comune riciclone",
+                "cost": 2,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 52,
+                "name": "Per gli amici della bici",
+                "cost": 3,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 53,
+                "name": "Zona accessibile",
+                "cost": 4,
+                "impact": 2,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 54,
+                "name": "Green city app",
+                "cost": 2,
+                "impact": 1,
+                "district": "commerciale",
+                "complete": false
+            },
+            {
+                "id": 57,
+                "name": "Borraccia blu",
                 "cost": 2,
                 "impact": 1,
                 "district": "commerciale",
@@ -461,262 +717,6 @@ export let useChallengesStore = defineStore('city', {
             },
             {
                 "id": 58,
-                "name": "Riciclaggio pannelli fotovoltaici",
-                "cost": 5,
-                "impact": 3,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 59,
-                "name": "Hai voluto la bicicletta…",
-                "cost": 4,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 60,
-                "name": "Bando ai fossili!",
-                "cost": 1,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id":61,
-                "name": "Un'auto, tante destinazioni",
-                "cost": 4,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 62,
-                "name": "Trasporto notturno",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 63,
-                "name": "Il wifi qui prende",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 64,
-                "name": "Numeri di emergenza",
-                "cost": 1,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 65,
-                "name": "Un nuovo parco",
-                "cost": 4,
-                "impact": 3,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 66,
-                "name": "Andiam, andiam…",
-                "cost": 3,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 67,
-                "name": "Frutta e verdura",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 68,
-                "name": "Parcheggi green",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 69,
-                "name": "Amministrazione paper free",
-                "cost": 3,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 70,
-                "name": "Il futuro è nel remoto",
-                "cost": 3,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 71,
-                "name": "Stop alla coda",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 72,
-                "name": "Buoni mobilità",
-                "cost": 1,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 73,
-                "name": "Cassonetti 2.0",
-                "cost": 3,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 74,
-                "name": "Co-working",
-                "cost": 3,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 75,
-                "name": "Co-working con asilo nido",
-                "cost": 4,
-                "impact": 3,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 76,
-                "name": "Giro giro tondo",
-                "cost": 3,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 77,
-                "name": "Edifici consumo 0",
-                "cost": 5,
-                "impact": 3,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 78,
-                "name": "Scopriamo la natura",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 79,
-                "name": "Mettici un filtro",
-                "cost": 4,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 80,
-                "name": "L'acqua conta",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 81,
-                "name": "I giardini della pioggia",
-                "cost": 3,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 82,
-                "name": "Case dell'acqua",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 83,
-                "name": "Il fiume ha la febbre?",
-                "cost": 3,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 84,
-                "name": "Mensa riciclona",
-                "cost": 2,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 85,
-                "name": "Comune riciclone",
-                "cost": 2,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 86,
-                "name": "Per gli amici della bici",
-                "cost": 3,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 87,
-                "name": "Zona accessibile",
-                "cost": 4,
-                "impact": 2,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 88,
-                "name": "Green city app",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 89,
-                "name": "Borraccia blu",
-                "cost": 2,
-                "impact": 1,
-                "district": "commerciale",
-                "complete": false
-            },
-            {
-                "id": 90,
                 "name": "Non trascuriamo il bordo!",
                 "cost": 4,
                 "impact": 2,
@@ -724,7 +724,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 91,
+                "id": 59,
                 "name": "Ridurre le perdite",
                 "cost": 3,
                 "impact": 2,
@@ -732,7 +732,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 92,
+                "id": 60,
                 "name": "Trasparente",
                 "cost": 3,
                 "impact": 1,
@@ -740,7 +740,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 93,
+                "id": 61,
                 "name": "Energy management",
                 "cost": 3,
                 "impact": 2,
@@ -748,7 +748,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 94,
+                "id": 63,
                 "name": "Il cestino intelligente",
                 "cost": 5,
                 "impact": 1,
@@ -756,7 +756,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 95,
+                "id": 1,
                 "name": "Isola tecno-ecologica",
                 "cost": 2,
                 "impact": 1,
@@ -764,7 +764,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 96,
+                "id": 16,
                 "name": "L'odore della paura",
                 "cost": 4,
                 "impact": 1,
@@ -772,7 +772,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 97,
+                "id": 42,
                 "name": "Manna dal cielo",
                 "cost": 3,
                 "impact": 1,
@@ -780,7 +780,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 98,
+                "id": 50,
                 "name": "Efficienza energetica",
                 "cost": 3,
                 "impact": 1,
@@ -788,7 +788,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 99,
+                "id": 62,
                 "name": "Industria 4.0",
                 "cost": 4,
                 "impact": 2,
@@ -796,7 +796,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 100,
+                "id": 4,
                 "name": "LED a light on",
                 "cost": 2,
                 "impact": 1,
@@ -804,7 +804,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 101,
+                "id": 6,
                 "name": "Energia all'informazione",
                 "cost": 2,
                 "impact": 2,
@@ -812,7 +812,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 102,
+                "id": 8,
                 "name": "Raccolta plastic free",
                 "cost": 1,
                 "impact": 1,
@@ -820,7 +820,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 103,
+                "id": 10,
                 "name": "Tenga il resto",
                 "cost": 2,
                 "impact": 1,
@@ -828,7 +828,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 104,
+                "id": 11,
                 "name": "Vesti & Rivesti",
                 "cost": 2,
                 "impact": 1,
@@ -836,7 +836,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false,
             },
             {
-                "id": 105,
+                "id": 13,
                 "name": "Energy community",
                 "cost": 2,
                 "impact": 1,
@@ -844,7 +844,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 106,
+                "id": 15,
                 "name": "Riciclaggio pannelli fotovoltaici",
                 "cost": 5,
                 "impact": 3,
@@ -852,7 +852,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 107,
+                "id": 18,
                 "name": "Hai voluto la bicicletta…",
                 "cost": 4,
                 "impact": 2,
@@ -860,7 +860,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 108,
+                "id": 20,
                 "name": "Bando ai fossili!",
                 "cost": 1,
                 "impact": 1,
@@ -868,7 +868,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 109,
+                "id":22,
                 "name": "Un'auto, tante destinazioni",
                 "cost": 4,
                 "impact": 2,
@@ -876,7 +876,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 110,
+                "id": 23,
                 "name": "Trasporto notturno",
                 "cost": 2,
                 "impact": 1,
@@ -884,7 +884,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 111,
+                "id": 24,
                 "name": "Il wifi qui prende",
                 "cost": 2,
                 "impact": 1,
@@ -892,7 +892,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 112,
+                "id": 25,
                 "name": "Numeri di emergenza",
                 "cost": 1,
                 "impact": 1,
@@ -900,7 +900,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 113,
+                "id": 26,
                 "name": "Un nuovo parco",
                 "cost": 4,
                 "impact": 3,
@@ -908,7 +908,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 114,
+                "id": 27,
                 "name": "Andiam, andiam…",
                 "cost": 3,
                 "impact": 2,
@@ -916,7 +916,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 115,
+                "id": 28,
                 "name": "Frutta e verdura",
                 "cost": 2,
                 "impact": 1,
@@ -924,7 +924,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 116,
+                "id": 30,
                 "name": "Parcheggi green",
                 "cost": 2,
                 "impact": 1,
@@ -932,7 +932,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 117,
+                "id": 31,
                 "name": "Amministrazione paper free",
                 "cost": 3,
                 "impact": 2,
@@ -940,7 +940,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 118,
+                "id": 32,
                 "name": "Il futuro è nel remoto",
                 "cost": 3,
                 "impact": 2,
@@ -948,7 +948,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 119,
+                "id": 33,
                 "name": "Stop alla coda",
                 "cost": 2,
                 "impact": 1,
@@ -956,7 +956,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 120,
+                "id": 34,
                 "name": "Buoni mobilità",
                 "cost": 1,
                 "impact": 1,
@@ -964,7 +964,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 121,
+                "id": 35,
                 "name": "Cassonetti 2.0",
                 "cost": 3,
                 "impact": 1,
@@ -972,7 +972,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 122,
+                "id": 36,
                 "name": "Co-working",
                 "cost": 3,
                 "impact": 2,
@@ -980,7 +980,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 123,
+                "id": 37,
                 "name": "Co-working con asilo nido",
                 "cost": 4,
                 "impact": 3,
@@ -988,7 +988,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 124,
+                "id": 38,
                 "name": "Giro giro tondo",
                 "cost": 3,
                 "impact": 2,
@@ -996,7 +996,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 125,
+                "id": 40,
                 "name": "Edifici consumo 0",
                 "cost": 5,
                 "impact": 3,
@@ -1004,7 +1004,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 126,
+                "id": 43,
                 "name": "Scopriamo la natura",
                 "cost": 2,
                 "impact": 1,
@@ -1012,7 +1012,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 127,
+                "id": 44,
                 "name": "Mettici un filtro",
                 "cost": 4,
                 "impact": 2,
@@ -1020,7 +1020,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 128,
+                "id": 45,
                 "name": "L'acqua conta",
                 "cost": 2,
                 "impact": 1,
@@ -1028,7 +1028,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 129,
+                "id": 46,
                 "name": "I giardini della pioggia",
                 "cost": 3,
                 "impact": 1,
@@ -1036,7 +1036,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 130,
+                "id": 47,
                 "name": "Case dell'acqua",
                 "cost": 2,
                 "impact": 1,
@@ -1044,7 +1044,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 131,
+                "id": 48,
                 "name": "Il fiume ha la febbre?",
                 "cost": 3,
                 "impact": 2,
@@ -1052,7 +1052,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 132,
+                "id": 49,
                 "name": "Mensa riciclona",
                 "cost": 2,
                 "impact": 2,
@@ -1060,7 +1060,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 133,
+                "id": 51,
                 "name": "Comune riciclone",
                 "cost": 2,
                 "impact": 2,
@@ -1068,7 +1068,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 134,
+                "id": 52,
                 "name": "Per gli amici della bici",
                 "cost": 3,
                 "impact": 1,
@@ -1076,7 +1076,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 135,
+                "id": 53,
                 "name": "Zona accessibile",
                 "cost": 4,
                 "impact": 2,
@@ -1084,7 +1084,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 136,
+                "id": 54,
                 "name": "Green city app",
                 "cost": 2,
                 "impact": 1,
@@ -1092,7 +1092,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 137,
+                "id": 57,
                 "name": "Borraccia blu",
                 "cost": 2,
                 "impact": 1,
@@ -1100,7 +1100,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 138,
+                "id": 58,
                 "name": "Non trascuriamo il bordo!",
                 "cost": 4,
                 "impact": 2,
@@ -1108,7 +1108,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 139,
+                "id": 59,
                 "name": "Ridurre le perdite",
                 "cost": 3,
                 "impact": 2,
@@ -1116,7 +1116,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 140,
+                "id": 60,
                 "name": "Trasparente",
                 "cost": 3,
                 "impact": 1,
@@ -1124,7 +1124,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 141,
+                "id": 61,
                 "name": "Energy management",
                 "cost": 3,
                 "impact": 2,
@@ -1132,7 +1132,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 142,
+                "id": 63,
                 "name": "Il cestino intelligente",
                 "cost": 5,
                 "impact": 1,
@@ -1140,7 +1140,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 143,
+                "id": 3,
                 "name": "Energia: ungioco da ragazzi",
                 "cost": 3,
                 "impact": 1,
@@ -1148,7 +1148,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 144,
+                "id": 14,
                 "name": "Case da smontare",
                 "cost": 3,
                 "impact": 3,
@@ -1156,7 +1156,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 145,
+                "id": 17,
                 "name": "C'è spazio per tutti",
                 "cost": 5,
                 "impact": 3,
@@ -1164,7 +1164,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 146,
+                "id": 21,
                 "name": "Abitare insieme",
                 "cost": 5,
                 "impact": 2,
@@ -1172,7 +1172,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 147,
+                "id": 4,
                 "name": "LED a light on",
                 "cost": 2,
                 "impact": 1,
@@ -1180,7 +1180,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 148,
+                "id": 6,
                 "name": "Energia all'informazione",
                 "cost": 2,
                 "impact": 2,
@@ -1188,7 +1188,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 149,
+                "id": 8,
                 "name": "Raccolta plastic free",
                 "cost": 1,
                 "impact": 1,
@@ -1196,7 +1196,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 150,
+                "id": 10,
                 "name": "Tenga il resto",
                 "cost": 2,
                 "impact": 1,
@@ -1204,7 +1204,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 151,
+                "id": 11,
                 "name": "Vesti & Rivesti",
                 "cost": 2,
                 "impact": 1,
@@ -1212,7 +1212,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false,
             },
             {
-                "id": 152,
+                "id": 13,
                 "name": "Energy community",
                 "cost": 2,
                 "impact": 1,
@@ -1220,7 +1220,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 153,
+                "id": 15,
                 "name": "Riciclaggio pannelli fotovoltaici",
                 "cost": 5,
                 "impact": 3,
@@ -1228,7 +1228,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 154,
+                "id": 18,
                 "name": "Hai voluto la bicicletta…",
                 "cost": 4,
                 "impact": 2,
@@ -1236,7 +1236,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 155,
+                "id": 20,
                 "name": "Bando ai fossili!",
                 "cost": 1,
                 "impact": 1,
@@ -1244,7 +1244,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 156,
+                "id":22,
                 "name": "Un'auto, tante destinazioni",
                 "cost": 4,
                 "impact": 2,
@@ -1252,7 +1252,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 157,
+                "id": 23,
                 "name": "Trasporto notturno",
                 "cost": 2,
                 "impact": 1,
@@ -1260,7 +1260,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 158,
+                "id": 24,
                 "name": "Il wifi qui prende",
                 "cost": 2,
                 "impact": 1,
@@ -1268,7 +1268,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 159,
+                "id": 25,
                 "name": "Numeri di emergenza",
                 "cost": 1,
                 "impact": 1,
@@ -1276,7 +1276,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 160,
+                "id": 26,
                 "name": "Un nuovo parco",
                 "cost": 4,
                 "impact": 3,
@@ -1284,7 +1284,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 161,
+                "id": 27,
                 "name": "Andiam, andiam…",
                 "cost": 3,
                 "impact": 2,
@@ -1292,7 +1292,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 162,
+                "id": 28,
                 "name": "Frutta e verdura",
                 "cost": 2,
                 "impact": 1,
@@ -1300,7 +1300,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 163,
+                "id": 30,
                 "name": "Parcheggi green",
                 "cost": 2,
                 "impact": 1,
@@ -1308,7 +1308,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 164,
+                "id": 31,
                 "name": "Amministrazione paper free",
                 "cost": 3,
                 "impact": 2,
@@ -1316,7 +1316,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 165,
+                "id": 32,
                 "name": "Il futuro è nel remoto",
                 "cost": 3,
                 "impact": 2,
@@ -1324,7 +1324,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 166,
+                "id": 33,
                 "name": "Stop alla coda",
                 "cost": 2,
                 "impact": 1,
@@ -1332,7 +1332,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 167,
+                "id": 34,
                 "name": "Buoni mobilità",
                 "cost": 1,
                 "impact": 1,
@@ -1340,7 +1340,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 168,
+                "id": 35,
                 "name": "Cassonetti 2.0",
                 "cost": 3,
                 "impact": 1,
@@ -1348,7 +1348,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 169,
+                "id": 36,
                 "name": "Co-working",
                 "cost": 3,
                 "impact": 2,
@@ -1356,7 +1356,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 170,
+                "id": 37,
                 "name": "Co-working con asilo nido",
                 "cost": 4,
                 "impact": 3,
@@ -1364,7 +1364,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 171,
+                "id": 38,
                 "name": "Giro giro tondo",
                 "cost": 3,
                 "impact": 2,
@@ -1372,7 +1372,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 172,
+                "id": 40,
                 "name": "Edifici consumo 0",
                 "cost": 5,
                 "impact": 3,
@@ -1380,7 +1380,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 173,
+                "id": 43,
                 "name": "Scopriamo la natura",
                 "cost": 2,
                 "impact": 1,
@@ -1388,7 +1388,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 174,
+                "id": 44,
                 "name": "Mettici un filtro",
                 "cost": 4,
                 "impact": 2,
@@ -1396,7 +1396,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 175,
+                "id": 45,
                 "name": "L'acqua conta",
                 "cost": 2,
                 "impact": 1,
@@ -1404,7 +1404,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 176,
+                "id": 46,
                 "name": "I giardini della pioggia",
                 "cost": 3,
                 "impact": 1,
@@ -1412,7 +1412,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 177,
+                "id": 47,
                 "name": "Case dell'acqua",
                 "cost": 2,
                 "impact": 1,
@@ -1420,7 +1420,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 178,
+                "id": 48,
                 "name": "Il fiume ha la febbre?",
                 "cost": 3,
                 "impact": 2,
@@ -1428,7 +1428,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 179,
+                "id": 49,
                 "name": "Mensa riciclona",
                 "cost": 2,
                 "impact": 2,
@@ -1436,7 +1436,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 180,
+                "id": 51,
                 "name": "Comune riciclone",
                 "cost": 2,
                 "impact": 2,
@@ -1444,7 +1444,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 181,
+                "id": 52,
                 "name": "Per gli amici della bici",
                 "cost": 3,
                 "impact": 1,
@@ -1452,7 +1452,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 182,
+                "id": 53,
                 "name": "Zona accessibile",
                 "cost": 4,
                 "impact": 2,
@@ -1460,7 +1460,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 183,
+                "id": 54,
                 "name": "Green city app",
                 "cost": 2,
                 "impact": 1,
@@ -1468,7 +1468,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 184,
+                "id": 57,
                 "name": "Borraccia blu",
                 "cost": 2,
                 "impact": 1,
@@ -1476,7 +1476,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 185,
+                "id": 58,
                 "name": "Non trascuriamo il bordo!",
                 "cost": 4,
                 "impact": 2,
@@ -1484,7 +1484,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 186,
+                "id": 59,
                 "name": "Ridurre le perdite",
                 "cost": 3,
                 "impact": 2,
@@ -1492,7 +1492,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 187,
+                "id": 60,
                 "name": "Trasparente",
                 "cost": 3,
                 "impact": 1,
@@ -1500,7 +1500,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 188,
+                "id": 61,
                 "name": "Energy management",
                 "cost": 3,
                 "impact": 2,
@@ -1508,7 +1508,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 189,
+                "id": 63,
                 "name": "Il cestino intelligente",
                 "cost": 5,
                 "impact": 1,
@@ -1516,7 +1516,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 190,
+                "id": 5,
                 "name": "Apprendimento a caldo",
                 "cost": 4,
                 "impact": 3,
@@ -1524,7 +1524,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 191,
+                "id": 7,
                 "name": "Il gioco nel gioco",
                 "cost": 2,
                 "impact": 2,
@@ -1532,7 +1532,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 192,
+                "id": 9,
                 "name": "Scuole plastic free",
                 "cost": 1,
                 "impact": 2,
@@ -1540,7 +1540,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 193,
+                "id": 41,
                 "name": "Libri digitali",
                 "cost": 3,
                 "impact": 1,
@@ -1548,7 +1548,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 194,
+                "id": 4,
                 "name": "LED a light on",
                 "cost": 2,
                 "impact": 1,
@@ -1556,7 +1556,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 195,
+                "id": 6,
                 "name": "Energia all'informazione",
                 "cost": 2,
                 "impact": 2,
@@ -1564,7 +1564,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 196,
+                "id": 8,
                 "name": "Raccolta plastic free",
                 "cost": 1,
                 "impact": 1,
@@ -1572,7 +1572,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 197,
+                "id": 10,
                 "name": "Tenga il resto",
                 "cost": 2,
                 "impact": 1,
@@ -1580,7 +1580,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 198,
+                "id": 11,
                 "name": "Vesti & Rivesti",
                 "cost": 2,
                 "impact": 1,
@@ -1588,7 +1588,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false,
             },
             {
-                "id": 199,
+                "id": 13,
                 "name": "Energy community",
                 "cost": 2,
                 "impact": 1,
@@ -1596,7 +1596,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 200,
+                "id": 15,
                 "name": "Riciclaggio pannelli fotovoltaici",
                 "cost": 5,
                 "impact": 3,
@@ -1604,7 +1604,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 201,
+                "id": 18,
                 "name": "Hai voluto la bicicletta…",
                 "cost": 4,
                 "impact": 2,
@@ -1612,7 +1612,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 202,
+                "id": 20,
                 "name": "Bando ai fossili!",
                 "cost": 1,
                 "impact": 1,
@@ -1620,7 +1620,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 203,
+                "id":22,
                 "name": "Un'auto, tante destinazioni",
                 "cost": 4,
                 "impact": 2,
@@ -1628,7 +1628,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 204,
+                "id": 23,
                 "name": "Trasporto notturno",
                 "cost": 2,
                 "impact": 1,
@@ -1636,7 +1636,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 205,
+                "id": 24,
                 "name": "Il wifi qui prende",
                 "cost": 2,
                 "impact": 1,
@@ -1644,7 +1644,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 206,
+                "id": 25,
                 "name": "Numeri di emergenza",
                 "cost": 1,
                 "impact": 1,
@@ -1652,7 +1652,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 207,
+                "id": 26,
                 "name": "Un nuovo parco",
                 "cost": 4,
                 "impact": 3,
@@ -1660,7 +1660,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 208,
+                "id": 27,
                 "name": "Andiam, andiam…",
                 "cost": 3,
                 "impact": 2,
@@ -1668,7 +1668,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 209,
+                "id": 28,
                 "name": "Frutta e verdura",
                 "cost": 2,
                 "impact": 1,
@@ -1676,7 +1676,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 210,
+                "id": 30,
                 "name": "Parcheggi green",
                 "cost": 2,
                 "impact": 1,
@@ -1684,7 +1684,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 211,
+                "id": 31,
                 "name": "Amministrazione paper free",
                 "cost": 3,
                 "impact": 2,
@@ -1692,7 +1692,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 212,
+                "id": 32,
                 "name": "Il futuro è nel remoto",
                 "cost": 3,
                 "impact": 2,
@@ -1700,7 +1700,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 213,
+                "id": 33,
                 "name": "Stop alla coda",
                 "cost": 2,
                 "impact": 1,
@@ -1708,7 +1708,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 214,
+                "id": 34,
                 "name": "Buoni mobilità",
                 "cost": 1,
                 "impact": 1,
@@ -1716,7 +1716,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 215,
+                "id": 35,
                 "name": "Cassonetti 2.0",
                 "cost": 3,
                 "impact": 1,
@@ -1724,7 +1724,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 216,
+                "id": 36,
                 "name": "Co-working",
                 "cost": 3,
                 "impact": 2,
@@ -1732,7 +1732,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 217,
+                "id": 37,
                 "name": "Co-working con asilo nido",
                 "cost": 4,
                 "impact": 3,
@@ -1740,7 +1740,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 218,
+                "id": 38,
                 "name": "Giro giro tondo",
                 "cost": 3,
                 "impact": 2,
@@ -1748,7 +1748,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 219,
+                "id": 40,
                 "name": "Edifici consumo 0",
                 "cost": 5,
                 "impact": 3,
@@ -1756,7 +1756,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 220,
+                "id": 43,
                 "name": "Scopriamo la natura",
                 "cost": 2,
                 "impact": 1,
@@ -1764,7 +1764,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 221,
+                "id": 44,
                 "name": "Mettici un filtro",
                 "cost": 4,
                 "impact": 2,
@@ -1772,7 +1772,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 222,
+                "id": 45,
                 "name": "L'acqua conta",
                 "cost": 2,
                 "impact": 1,
@@ -1780,7 +1780,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 223,
+                "id": 46,
                 "name": "I giardini della pioggia",
                 "cost": 3,
                 "impact": 1,
@@ -1788,7 +1788,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 224,
+                "id": 47,
                 "name": "Case dell'acqua",
                 "cost": 2,
                 "impact": 1,
@@ -1796,7 +1796,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 225,
+                "id": 48,
                 "name": "Il fiume ha la febbre?",
                 "cost": 3,
                 "impact": 2,
@@ -1804,7 +1804,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 226,
+                "id": 49,
                 "name": "Mensa riciclona",
                 "cost": 2,
                 "impact": 2,
@@ -1812,7 +1812,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 227,
+                "id": 51,
                 "name": "Comune riciclone",
                 "cost": 2,
                 "impact": 2,
@@ -1820,7 +1820,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 228,
+                "id": 52,
                 "name": "Per gli amici della bici",
                 "cost": 3,
                 "impact": 1,
@@ -1828,7 +1828,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 229,
+                "id": 53,
                 "name": "Zona accessibile",
                 "cost": 4,
                 "impact": 2,
@@ -1836,7 +1836,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 230,
+                "id": 54,
                 "name": "Green city app",
                 "cost": 2,
                 "impact": 1,
@@ -1844,7 +1844,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 231,
+                "id": 57,
                 "name": "Borraccia blu",
                 "cost": 2,
                 "impact": 1,
@@ -1852,7 +1852,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 232,
+                "id": 58,
                 "name": "Non trascuriamo il bordo!",
                 "cost": 4,
                 "impact": 2,
@@ -1860,7 +1860,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 233,
+                "id": 59,
                 "name": "Ridurre le perdite",
                 "cost": 3,
                 "impact": 2,
@@ -1868,7 +1868,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 234,
+                "id": 60,
                 "name": "Trasparente",
                 "cost": 3,
                 "impact": 1,
@@ -1876,7 +1876,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 235,
+                "id": 61,
                 "name": "Energy management",
                 "cost": 3,
                 "impact": 2,
@@ -1884,7 +1884,7 @@ export let useChallengesStore = defineStore('city', {
                 "complete": false
             },
             {
-                "id": 236,
+                "id": 63,
                 "name": "Il cestino intelligente",
                 "cost": 5,
                 "impact": 1,
@@ -1895,12 +1895,10 @@ export let useChallengesStore = defineStore('city', {
     }),
     actions: {
         // fill storage with infos from json file.
-        async fill() {
+        async fill(allowedDistricts) {
             let r = await import("@/stores/challengeStore.json");
             let data = r.default;
-
-            this.district = data.district;
-            this.challenges = data.challenges;
+            this.challenges = data.challenges.filter(a => allowedDistricts.include(a.district));
         }
     },
     getters: {
