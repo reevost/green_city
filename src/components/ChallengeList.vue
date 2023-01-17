@@ -7,10 +7,10 @@
       <h2 class="font-bold mb-2">
         {{ title }}
       </h2>
-      <button v-on:click="toggleChallenge = ! toggleChallenge" v-if="toggleChallenge">
+      <button v-on:click="$emit('toggle', this.title)" v-if="toggleChallenge">
         &#8595;
       </button>
-      <button v-on:click="toggleChallenge = ! toggleChallenge" v-else>
+      <button v-on:click="$emit('toggle', this.title)" v-else>
         &times;
       </button>
     </div>
@@ -39,7 +39,8 @@ export default {
     challenges: Array,
     title: String,
     searchValue: String,
-    tagValue: String
+    tagValue: String,
+    toggleChallenge: Boolean
   },
   computed: {
     filterChallenge() {
@@ -49,11 +50,7 @@ export default {
                   || String(a.id).includes(this.searchValue)));
     }
   },
-  data () {
-    return {
-      toggleChallenge: false
-    }
-  }
+  methods: {}
 }
 </script>
 
