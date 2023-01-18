@@ -1898,7 +1898,7 @@ export let useChallengesStore = defineStore('city', {
         async fill(allowedDistricts) {
             let r = await import("@/stores/challengeStore.json");
             let data = r.default;
-            this.challenges = data.challenges.filter(a => allowedDistricts.include(a.district));
+            this.challenges = data.challenges.filter(a => allowedDistricts.includes(a.district));
         }
     },
     getters: {
