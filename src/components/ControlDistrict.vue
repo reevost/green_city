@@ -3,7 +3,7 @@
   <div id="menu" class="fixed bg-white w-1/3 min-w-[480px] h-screen p-8 overflow-y-scroll z-50">
     <section id="challenges tag and search">
       <DistrictTags
-          v-bind:tags="districts"
+          v-bind:tags="chosenDistricts"
           v-model:currentTag="currentDistrict"
           v-on:update:currentTag="filterReset"
       />
@@ -41,15 +41,18 @@
 import ChallengeList from "@/components/ChallengeList.vue";
 import DistrictTags from "@/components/DistrictTags.vue";
 import {useChallengesStore} from "@/stores/ChallengesStore";
-import {mapWritableState} from "pinia";
+import {mapWritableState, mapActions} from "pinia";
 
 export default {
   components: {
     ChallengeList, DistrictTags
   },
+  props:{
+    chosenDistricts: Array,
+  },
   data() {
     return {
-      currentDistrict: "centro storico",
+      currentDistrict: this.chosenDistricts[0],
       filterWord: "",
       toggleProgressChallenge: false,
       toggleCompleteChallenge: false
@@ -64,6 +67,7 @@ export default {
     }),
   },
   methods: {
+    ...mapActions(useChallengesStore, ["fill"]),
     toggleChallenges(title) {
       title === "Sfide in corso" ? this.toggleProgressChallenge = ! this.toggleProgressChallenge : this.toggleCompleteChallenge = ! this.toggleCompleteChallenge
     },
@@ -72,6 +76,10 @@ export default {
       this.toggleProgressChallenge = false
       this.toggleCompleteChallenge = false
     }
+  },
+  mounted() {
+    let cleanChallenges = useChallengesStore()
+    cleanChallenges.fill(this.chosenDistricts)
   }
 }
 </script>

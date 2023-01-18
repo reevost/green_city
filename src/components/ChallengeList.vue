@@ -22,8 +22,7 @@
         v-bind:key="single_challenge.id"
         v-bind:challenge="single_challenge"
         v-on:done="single_challenge.complete = ! single_challenge.complete"
-        >
-      </ChallengeItem>
+      />
     </ul>
   </section>
 </template>
