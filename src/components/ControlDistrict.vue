@@ -8,7 +8,7 @@
           v-on:update:currentTag="filterReset"
       />
       <div class="border border-gray-600 text-black">
-        <input v-model="filterWord" placeholder="cerca..." class="p-2"/>
+        <input v-model="filterWord" placeholder="cerca..." class="w-full p-2"/>
       </div>
     </section>
     <section id="challenges" class="mt-6">
