@@ -4,6 +4,9 @@
       <h2 class="modal-header">
         <slot name="header"> Con che distretti giochi? </slot>
       </h2>
+      <p>
+        (puoi scegliere più distretti)
+      </p>
 
       <div id="district list" class="border border-gray-600 divide-y divide-gray-600 mt-6">
         <DistrictItem
@@ -70,7 +73,7 @@ export default {
   font-size: .8rem;
 }
 .modal-header {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   font-size: 1.4rem;
 }
