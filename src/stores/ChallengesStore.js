@@ -1,8 +1,9 @@
 import {defineStore} from "pinia";
+import { useStorage } from '@vueuse/core';
 
 export let useChallengesStore = defineStore('city', {
     state: () => ({
-        challenges: [
+        challenges: useStorage("challenges",[
             {
                 "id": 19,
                 "name": "Zona a traffico limitato",
@@ -1891,7 +1892,7 @@ export let useChallengesStore = defineStore('city', {
                 "district": "scolastico",
                 "complete": false
             }
-        ]
+        ])
     }),
     actions: {
         // fill storage with infos from json file.
