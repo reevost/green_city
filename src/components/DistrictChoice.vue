@@ -17,9 +17,17 @@
         />
       </div>
 
-      <footer class="modal-footer">
+      <footer class="modal-footer flex justify-between">
         <slot name="footer">
-          <button @click="$emit('confirm', allowedDistricts)">Conferma</button>
+          <button id="confirm"
+              class="text-green-800 bg-green-200 hover:bg-green-400"
+              @click="$emit('confirm', allowedDistricts)"
+          >Conferma</button>
+          <button
+              id="reset"
+              class="text-red-800 bg-red-200 hover:bg-red-400"
+              @click="$emit('reset')"
+          >Reset</button>
         </slot>
       </footer>
     </div>
@@ -28,25 +36,16 @@
 
 <script>
 import DistrictItem from "@/components/DistrictItem.vue";
+
 export default {
   components: {DistrictItem},
   props: {
-    tags: Array,
-  },
-  data() {
-    return {
-      tags_obj: []
-    }
+    tags_obj: Object
   },
   computed: {
     allowedDistricts() {
       return this.tags_obj.filter(a => a.complete).map(a => a.name)
     }
-  },
-  mounted() {
-    this.tags.forEach(i => {
-      this.tags_obj.push({"name": i, "id": i, "complete": false})
-    })
   }
 }
 </script>
@@ -78,11 +77,7 @@ export default {
   font-size: 1.4rem;
 }
 .modal-footer button {
-  background: #ddd;
   padding: .25rem .75rem;
   border-radius: 20px;
-}
-.modal-footer button:hover {
-  background: #c8c8c8;
 }
 </style>

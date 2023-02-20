@@ -77,10 +77,6 @@ export default {
       this.toggleCompleteChallenge = false
     }
   },
-  mounted() {
-    let cleanChallenges = useChallengesStore()
-    cleanChallenges.fill(this.chosenDistricts)
-  }
 }
 </script>
 
