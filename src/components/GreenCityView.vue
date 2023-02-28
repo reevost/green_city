@@ -2,21 +2,29 @@
 // fa prima il render delle liste e poi della immagine
 <template>
   <div id="container">
-    <div id="manage_button" class="manage_button z-50" v-show="flag">
+    <div id="manage_button" class="manage_button z-50" v-show="button_flag">
       <button
           class="border rounded px-1 py-px text-xs border-orange-500 text-orange-500"
           v-on:click="change"
       >Gestisci distretti</button>
     </div>
-    <DistrictView />
+    <div id="control_hide_button" class="control_hide_button z-50" v-show="button_flag">
+      <button
+          class="border rounded px-1 py-px text-xs border-orange-500 text-orange-500"
+          v-on:click="hideOrControl"
+      > {{control_flag ? "Nascondi sfide" : "Mostra sfide"}} </button>
+    </div>
+    <div>
+      <DistrictView />
+    </div>
     <ControlDistrict
-        v-if="flag"
+        v-if="control_flag"
         v-bind:chosenDistricts="districts"/>
     <DistrictChoice
         v-bind:tags_obj="districts_name_obj"
         v-on:confirm="choices"
         v-on:reset="reset"
-        v-else/>
+        v-show="choice_district_flag"/>
   </div>
 </template>
 
@@ -36,7 +44,9 @@ export default {
   },
   data() {
     return {
-      flag: false,
+      button_flag: false,
+      control_flag: false,
+      choice_district_flag: true,
       districts: [],
       districts_name_obj: useStorage("districts_tags", [
         {
@@ -73,18 +83,28 @@ export default {
     }),
   },
   methods: {
+    hideOrControl() {
+      this.control_flag = ! this.control_flag
+    },
     choices(arr) {
       this.districts = arr
-      this.flag = ! this.flag
+      this.control_flag = true
+      this.button_flag = true
+      this.choice_district_flag = false
     },
     change() {
       this.districts = this.allDistricts
-      this.flag = ! this.flag
+      this.choice_district_flag = true
+      this.button_flag = false
     },
     reset() {
-      this.districts_name_obj.forEach(i => {i.complete = false})
-      let cleanChallenges = useChallengesStore()
-      cleanChallenges.fill(this.allDistricts)
+      if(confirm("se confermi tutti i dati di gioco verranno azzerati")) {
+        this.districts_name_obj.forEach(i => {
+          i.complete = false
+        })
+        let cleanChallenges = useChallengesStore()
+        cleanChallenges.fill(this.allDistricts)
+      }
     }
   }
 }
@@ -94,7 +114,12 @@ export default {
 <style scoped>
 .manage_button{
   position: absolute;
-  top: 8px;
+  top: 4px;
   right: 16px;
+}
+.control_hide_button {
+  position: absolute;
+  top: 4px;
+  left: 16px;
 }
 </style>

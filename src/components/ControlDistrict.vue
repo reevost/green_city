@@ -1,8 +1,8 @@
 // right panel with districts tags and list.
 <template>
-  <div id="menu" class="fixed bg-white w-1/3 min-w-[480px] h-screen p-8 overflow-y-scroll z-50">
-    <section id="challenges tag and search">
-      <DistrictTags
+  <div id="menu" class="fixed bg-white w-1/3 min-w-[480px] h-screen p-8 overflow-y-scroll z-20">
+    <section id="challenges tag and search" class="">
+      <DistrictTags class="p-2"
           v-bind:tags="chosenDistricts"
           v-model:currentTag="currentDistrict"
           v-on:update:currentTag="filterReset"
@@ -30,9 +30,6 @@
           v-model:toggleChallenge="toggleCompleteChallenge"
           v-on:toggle="toggleChallenges"
       ></ChallengeList>
-    </section>
-    <section id="scoring" class="font-bold mt-6 border border-gray-600 p-2">
-      Punteggio: {{totalScore}}
     </section>
   </div>
 </template>

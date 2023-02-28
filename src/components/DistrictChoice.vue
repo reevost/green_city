@@ -1,5 +1,5 @@
 <template>
-  <div class="modal-mask">
+  <div class="modal-mask z-50">
     <div class="modal-container">
       <h2 class="modal-header">
         <slot name="header"> Con che distretti giochi? </slot>
