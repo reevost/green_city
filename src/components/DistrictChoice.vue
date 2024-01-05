@@ -2,11 +2,9 @@
   <div class="modal-mask z-50">
     <div class="modal-container">
       <h2 class="modal-header">
-        <slot name="header"> Con che distretti giochi? </slot>
+        <slot name="header">Con che distretti giochi?</slot>
       </h2>
-      <p>
-        (puoi scegliere più distretti)
-      </p>
+      <p>(puoi scegliere uno o più distretti)</p>
 
       <div id="district list" class="border border-gray-600 divide-y divide-gray-600 mt-6">
         <DistrictItem
